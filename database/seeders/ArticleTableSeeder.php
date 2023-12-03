@@ -8,7 +8,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use App\Models\Article;
 
-class ArticlesTableSeeder extends Seeder
+class ArticleTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -46,7 +46,7 @@ class ArticlesTableSeeder extends Seeder
             ],
             [
                 'title' => 'Cara Menyimpan Bawang Merah Agar Tahan Lama',
-                'photo'=> 'https://www.eatthis.com/wp-content/uploads/sites/4/2022/07/woman-cooking.jpg?quality=82&strip=1',
+                'photo'=> 'https://res.cloudinary.com/dk0z4ums3/image/upload/v1620032803/attached_image/selain-gurih-manfaat-bawang-merah-juga-banyak.jpg',
                 'desc' => 'Bawang merah menjadi salah satu bumbu dasar yang selalu ada di setiap masakan di Indonesia. Dengan bawang merah, setiap masakan yang kita buat akan semakin lezat, nikmat dan beraroma wangi khas. Cita rasa masakan yang semula biasanya, akan semakin kuat dengan bumbu bawang merah di dalamnya.',
                 'content' => 'Saat harga bawang merah sedang cukup murah seperti sekarang ini, tak ada salahnya untuk membeli bawang merah dalam jumlah banyak. Dengan cara penyimpanan yang tepat, bumbu bawang merah bisa tahan lebih lama. Berikut beberapa cara tepat menyimpan bawang merah agar tahan lebih lama tanpa mengurangi kualitas dan rasanya.
                 1. Pisahkan Bawang Merah dari Bumbu Lain
