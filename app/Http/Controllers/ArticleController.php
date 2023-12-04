@@ -17,7 +17,7 @@ class ArticleController extends Controller
             'articles' => $articles]);
     }
 
-    public function detail(Request $request, $id) {
+    public function detail($id) {
         /* menggunakan eloquent */
         $articles = Article::find($id)->first();
         return view('article.detail', ['articles' => $articles]);
