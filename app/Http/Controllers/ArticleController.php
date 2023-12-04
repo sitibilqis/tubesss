@@ -17,10 +17,10 @@ class ArticleController extends Controller
             'articles' => $articles]);
     }
 
-    public function detail($id) {
+    public function detail(Request $request, $id) {
         /* menggunakan eloquent */
         $articles = Article::find($id)->first();
-        return view('article.detail',['articles' => $articles]);
+        return view('article.detail', ['articles' => $articles]);
     }
 
     public function edit($id)
